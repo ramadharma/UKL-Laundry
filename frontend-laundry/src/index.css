@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* LOGIN */
+#body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #EFF3FF;
+}
+
+#login-card {
+  padding: 20px;
+  border: none;
+  background-color: #DCE5FE;
+  width: 20em;
+}
+
+#input-login {
+  border: none;
+}
+
+#logo-login {
+  margin-bottom: 1em;
+}
+
+#title-login {
+  font-weight: bold;
+}
+
+#header {
+  margin-bottom: 1.5em;
+}
+
+/* NAVBAR */
+.navbar {
+  /* width: 1em; */
+  background-color: #F8F9FD !important;
+}
+.nav-item .active{
+  color: #55CFBE !important;
+}
+
+#brand {
+  color: #333333;
+  font-weight: bolder;
+}
+
+#tambah-transaksi button  {
+  background-color: #55CFBE;
+  border-radius: 6px;
+  padding: 0px;
+  border: none;
+}
+
+#span {
+  color: #F8F9FD !important;
+}
+
+#icon-newtrans {
+  color: #F8F9FD !important;
+}
+
+#logout {
+  color: #FF5656;
+}
+
+#logo {
+  margin-bottom: 8px;
+  width: 20px;
+}
+
+/* DASHBOARD */
+#member {
+  border: none;
+  background-color: #EFF3FF !important;
+}
+
+#icon-member {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 6px;
+  background-color: #DCE5FE !important;
+}
+
+#paket {
+  border: none;
+  background-color: #FDF4F5 !important;
+}
+
+#icon-paket {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 6px;
+  background-color: #FFE1E4;
+}
+
+#transaksi {
+  border: none;
+  background-color: #FFFCE4;
+}
+
+#icon-transaksi {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 6px;
+  background-color: #FFF9C8;
+}
+
+#income {
+  border: none;
+  background-color: #ECFFED;
+}
+
+#icon-income {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 6px;
+  background-color: #D5FFD7;
+}
+
+#jumlah {
+  font-weight: bold;
+}
+
+#label {
+  font-size: 16px !important;
+  color: #979A9B;
+}
+
+/* table */
+thead {
+  border-bottom: 0 !important;
+}
+
+th {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  border-bottom: 0 !important;
+  margin-bottom: 2em;
+}
+
+td {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+}
+
+/* MEMBER */
+#button-edit {
+  color: #1266F1;
+}
+
+#button-edit:hover {
+  background-color: #EFF3FF;
+}
+
+#button-delete {
+  color: #FF5656;
+}
+
+#button-delete:hover {
+  background-color: #EFF3FF;
+}
+
+/* TRANSASKSI */
+#badge-success {
+  background-color: #C7F5D9 !important;
+  color: #0B4121 !important;
+  font-weight: 600;
+  border-radius: 50px;
+}
+
+#badge-danger {
+  background-color: #f5b0b0 !important;
+  color: #690000 !important;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#badge-warning {
+  background-color: #FFEBC2 !important;
+  color: #453008 !important;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#badge-info {
+  background-color: #CFE0FC !important;
+  color: #0A47A9 !important;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#badge-secondary {
+  background-color: #fccfed !important;
+  color: #a90a3f !important;
+  font-weight: 600;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#hr {
+  color: #cecece;
+}
+
+#cardTrans {
+  border: none !important;
+}
+
+#total {
+  color: #1266F1;
+}
+
+/* PAKET */
+#card-paket {
+  border: none;
+  background-color: #F8F9FD;
+}
+
+/* MODAL MEMBER */
+#bg-modal {
+  background-color: #f8f9fd;
+}
+
+/* SEARCH */
+.ms-n5 {
+  margin-left: -40px;
+}
+
+/* BUTTON ADD */
+#button-add {
+  color: #F8F9FD;
+  background-color: #55CFBE;
+  border: none;
+}
